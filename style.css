@@ -12,7 +12,7 @@ body {
 
 /* Hero Section */
 #hero {
-    background: url('Imagenes/WebNovaLogo.jpg') center/cover no-repeat;
+    background: url('/Imagenes/WebNovaLogo.jpg') center/cover no-repeat;
     height: 80vh;
     display: flex;
     justify-content: center;
