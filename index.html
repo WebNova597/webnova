@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebNova - Tu negocio en línea</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="document.querySelectorAll('.fade-in').forEach(el => el.classList.add('aparecer'));">
+    <header>
+        <h1 class="fade-in">WebNova</h1>
+        <p class="fade-in"><em>La tecnología no avanza sola, es el ingenio humano quien la impulsa</em></p>
+        <nav>
+            <a href="#hero">Inicio</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#beneficios">Beneficios</a>
+            <a href="#ComoTrabajamos">¿Cómo trabajamos?</a>
+            <a href="#Testimonios">Testimonios</a>
+            <a href="#contacto" class="contacto-fijo">Contáctanos</a>
+        </nav>
+    </header>
+    
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Impulsa tu negocio con WebNova</h1>
+            <p>Desarrollo web, mantenimiento y asesoría digital para que tu empresa crezca en línea.</p>
+            <a href="#contacto" class="btn">Solicita tu sitio web</a>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <div class="servicios_container">
+            <div class="Desarrollo_web">
+                <h3>Desarrollo Web</h3>
+                <ul>
+                    <li>Creamos sitios web personalizados que se adaptan a las necesidades y visión de cada cliente.</li>
+                    <li>Usamos tecnologías como HTML, CSS y JavaScript para garantizar diseños modernos, funcionales y atractivos.</li>
+                    <li>Nos aseguramos de que la página sea responsiva (se vea bien en cualquier dispositivo) y optimizada para una navegación rápida y segura.</li>
+                    <li>Implementamos funcionalidades específicas según el negocio del cliente, como formularios de contacto, integración con redes sociales, blogs, etc.</li>
+                </ul>
+            </div>
+            <div class="Mantenimiento">
+                <h3>Mantenimiento</h3>
+                <li>Nos encargamos de mantener operativas las páginas web de nuestros clientes.</li>
+                <li>Actualizamos el contenido y corregimos posibles errores en la estructura o en el código.</li>
+                <li>Optimizamos el rendimiento y seguridad del sitio web, evitando problemas de carga o vulnerabilidades.</li>
+                <li>Brindamos soporte técnico para resolver cualquier inconveniente que pueda surgir con la página.</li>
+            </div>
+            <div class="Asesoría_Digital">
+                <h3>Asesoría Digital</h3>
+                <li>Ayudamos a los clientes a comprender y aprovechar mejor su presencia en internet.</li>
+                <li>Brindamos estrategias sobre marketing digital, posicionamiento SEO y gestión de redes sociales.</li>
+                <li>Enseñamos a los clientes a administrar su sitio web, permitiéndoles realizar cambios menores sin depender de terceros.</li>
+                <li>Ofrecemos recomendaciones sobre herramientas digitales y tendencias para maximizar su alcance en línea.</li>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="beneficios">
+        <h2>¿Por qué elegirnos?</h2>
+        <div class="beneficio">
+            <img src="Imagenes/velocidad.png" width="50" height="50" alt="Rápido">
+            <p> 
+                <b>Velocidad</b><br>
+                Páginas optimizadas para cargar en segundos.
+            </p>
+        </div>
+        <div class="beneficio">
+            <img src="Imagenes/responsivos.png" width="50" height="50" alt="Diseño Responsivo">
+            <p><b>Diseño Responsivo</b><br> Tu sitio se verá perfecto en cualquier dispositivo.</p>
+        </div>
+        <div class="beneficio">
+            <img src="Imagenes/SEO.png" width="50" height="50" alt="SEO">
+            <p><b>SEO Optimizado</b><br> Aparece en los primeros lugares de Google.</p>
+        </div>
+    </section>
+
+    <section id="ComoTrabajamos">
+        <h2>¿Cómo Trabajamos?</h2>
+        <div class="proceso">
+            <div class="paso">
+                <img src="Imagenes/consulta.png" alt="Consulta inicial">
+                <h3>1. Consulta Inicial</h3>
+                <p>Nos reunimos contigo para conocer tus necesidades y objetivos.</p>
+            </div>
+            <div class="paso">
+                <img src="Imagenes/diseño.png" alt="Diseño y planificación">
+                <h3>2. Diseño y Planificación</h3>
+                <p>Definimos la estructura y el diseño de tu página web.</p>
+            </div>
+            <div class="paso">
+                <img src="Imagenes/desarrollo.png" alt="Desarrollo">
+                <h3>3. Desarrollo</h3>
+                <p>Programamos tu sitio con las mejores tecnologías.</p>
+            </div>
+            <div class="paso">
+                <img src="Imagenes/pruebas.png" alt="Pruebas y ajustes">
+                <h3>4. Pruebas y Ajustes</h3>
+                <p>Revisamos que todo funcione correctamente antes del lanzamiento.</p>
+            </div>
+            <div class="paso">
+                <img src="Imagenes/lanzamiento.png" alt="Lanzamiento">
+                <h3>5. Lanzamiento</h3>
+                <p>Publicamos tu sitio y lo optimizamos para su mejor rendimiento.</p>
+            </div>
+            <div class="paso">
+                <img src="Imagenes/soporte.png" alt="Soporte y mantenimiento">
+                <h3>6. Soporte y Mantenimiento</h3>
+                <p>Brindamos soporte y mejoras constantes a tu página web.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="Testimonios">
+        <h2>Testimonios</h2>
+        <p>
+            <b>María López – Emprendedora</b><br>
+            <em>"Gracias a WebNova, mi tienda en línea despegó como nunca imaginé. La página es rápida, atractiva y fácil de usar. ¡Mis ventas han aumentado un 40% en solo tres meses!"</em>
+        </p>
+        <p>
+            <b>Carlos Méndez – Dueño de Restaurante</b><br>
+            <em>"Necesitaba una página web profesional para mi restaurante, y WebNova superó mis expectativas. Ahora mis clientes pueden ver el menú y hacer reservaciones en línea sin complicaciones."</em>
+        </p>
+        <p>
+            <b>Ana Rodríguez – Coach Personal</b><br>
+            <em>"Antes, dependía solo de redes sociales para mi negocio, pero con la página web que me crearon en WebNova, he logrado atraer clientes de forma más profesional y organizada. ¡Totalmente recomendados!"</em>
+        </p>
+        <p>
+            <b>Javier Fernández – Freelance en Diseño Gráfico</b><br>
+            <em>"Mi portafolio online luce increíble gracias a WebNova. Su equipo entendió exactamente lo que necesitaba y lograron plasmar mi esencia en el sitio. ¡Ahora consigo más clientes que nunca!"</em>
+        </p>
+        <p>
+            <b>Lucía García – Consultora de Negocios</b><br>
+            <em>"La asesoría digital que recibí fue clave para modernizar mi negocio. WebNova no solo creó mi sitio web, sino que me enseñó cómo aprovecharlo al máximo para captar clientes."</em>
+        </p>
+    </section>
+
+    <section id="contacto" >
+        <h2>Contacto</h2>
+        <p>Déjanos tu mensaje y nos pondremos en contacto contigo.</p>
+        <form action="https://formspree.io/f/xbldwzzn" method="post">
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+            <input type="email" name="email" placeholder="Tu correo" required>
+            <textarea name="mensaje" placeholder="Tu mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 WebNova - Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
